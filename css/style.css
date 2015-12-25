@@ -1,0 +1,53 @@
+/**************************************************************
+              Universal Style
+**************************************************************/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 960px;
+}
+/**************************************************************
+              Body Style
+**************************************************************/
+body {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/**************************************************************
+              Header Style
+**************************************************************/
+header {
+  height: 70px;
+  background-color: rgba(0,0,0,.5);
+  padding-top: 10px;
+  padding-left: 20%;
+}
+.logo {
+  width: 35px;
+  height: auto;
+}
+.nav {
+  display: inline-block;
+  width: 80%;
+}
+.nav li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav li a {
+  color: #fff;
+  transition: color, border-bottom 0.1s;
+}
+.nav li a:hover {
+  color: rgba(0,255,188,0.5);
+  background: none;
+  border-bottom: 1px solid rgba(0,255,188,0.5);
+}
